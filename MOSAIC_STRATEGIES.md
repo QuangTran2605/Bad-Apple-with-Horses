@@ -1,7 +1,3 @@
-## Context
-
-Read the project `README.md` first for full project context. This file provides instructions for implementing **multiple mosaic building strategies** so we can visually compare them and pick the best one.
-
 ## The Problem
 
 Bad Apple is essentially a black-and-white video. A naive "pick the closest color match" algorithm will repeatedly select the same 1-2 horse images for black and white pixels, producing a boring, repetitive mosaic. We need strategies that introduce **visual variety** while preserving the overall recognizability of each frame.
