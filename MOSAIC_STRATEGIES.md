@@ -1,5 +1,3 @@
-# Mosaic Strategy Testing — Instructions for Claude Code
-
 ## Context
 
 Read the project `README.md` first for full project context. This file provides instructions for implementing **multiple mosaic building strategies** so we can visually compare them and pick the best one.
