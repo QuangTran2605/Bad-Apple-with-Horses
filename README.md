@@ -141,8 +141,7 @@ ffmpeg -i data/bad_apple.mp4 -vf "scale=120:90" -r 30 data/frames/frame_%05d.png
    a. Load the 120×90 frame
    b. For each pixel at position (x, y):
       - Get the pixel's RGB value
-      - Find the tile with the **minimum Euclidean distance** in RGB space:
-        `distance = sqrt((r1-r2)² + (g1-g2)² + (b1-b2)²)`
+      - Find the an appropriate tile to replace the pixel (see more details about tile choices in the MOSAIC_STRATEGIES file)
       - Place that tile's 12×12 image at position (x*12, y*12) in the output canvas
    c. Save the completed 1440×1080 mosaic frame to `data/mosaic_frames/`
 
